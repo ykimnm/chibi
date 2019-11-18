@@ -1,4 +1,8 @@
-exanple Value 123
-exanple　Value 123456789
+exanple Zip 141-0001
 
+Zip = {
+    Value '_' Value#
+    #Zip
+}
+Value = {DIGIT+ #Int }
 DIGIT = [0-9]
